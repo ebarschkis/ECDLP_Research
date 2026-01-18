@@ -34,7 +34,7 @@ def _point_from_t(E_Qp, t):
 
 
 def analyze_shadow_field(bits=16, secret_k=123, prec=20, p_override=None):
-    print("--- initializing toy-secp256k1 shadow probe ---")
+    print("--- initializing toy-secp256k1 probe ---")
 
     # 1. Define toy secp-like curve (j=0, p ≡ 1 mod 3).
     p, E_Fp = _toy_secp_curve(bits=bits, p_override=p_override)
